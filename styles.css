@@ -1,0 +1,26 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+body {
+    background-color: greenyellow;
+}
+h1{
+    text-align: center;
+}
+header p {
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    background-color: honeydew;
+}
+.borrar-producto{
+    float: right;
+
+}
+.list-group-item{
+    margin-top: 0.5%;
+}

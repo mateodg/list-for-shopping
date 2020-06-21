@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>La lista de mandados</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="imagenes\lista.webp">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="display-1">La lista de mandados</h1>
+            <p class="lead">Te cansaste de que te reten en casa por olvidarte la leche? Entonces llegaste al lugar indicado.</p>
+        </header>
+        <section>
+            <article class="jumbotron">
+                <h3 class="display-4">Aca pones en lo que vas a gastar la plata</h3>
+            <form action="#" id="formulario" autocomplete="off">
+                <input type="text" class="form-control" placeholder="Ingresa lo que vas a comprar" id="producto"  required><br/><hr>
+                <input class="btn btn-primary" type="submit" id="agregarProducto" value="Agregar Producto" >
+            </form>
+                <hr>
+                <ul class="list-group" id="listaMandados">
+                </ul>     
+            </article>
+        </section>
+        <footer>
+            <p class="lead"> © Mateo Di Giusto</p>
+        </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+
+     
+    </body>
+</html>
